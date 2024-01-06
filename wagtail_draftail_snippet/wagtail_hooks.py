@@ -64,7 +64,6 @@ def register_snippet_embed_feature(features):
     # wagtailadmin/js/chooser-modal.js is needed for window.ChooserModalOnloadHandlerFactory
     js_include = [
         "wagtailadmin/js/chooser-modal.js",
-        "wagtailsnippets/js/snippet-chooser-modal.js",
         "wagtail_draftail_snippet/js/snippet-model-chooser-modal.js",
         "wagtail_draftail_snippet/js/wagtail-draftail-snippet.js",
     ]
